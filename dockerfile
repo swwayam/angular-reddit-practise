@@ -1,4 +1,4 @@
-FROM nodejs:alpine AS build
+FROM nodejs:16-alpine AS build
 
 WORKDIR /app
 
